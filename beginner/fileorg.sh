@@ -6,7 +6,7 @@ dry_run=false
 
 if [ "$1" = "--dry-run" ]; then 
 	dry_run=true
-	echo "doing run run!!"
+	echo "doing dry run!!"
 fi
 
 echo "enter a dir: "
